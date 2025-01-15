@@ -1,0 +1,112 @@
+body {
+    background-color: #1a1a1a; /* Cor de fundo mais escura */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    width: 320px;
+    border-radius: 24px; /* Bordas arredondadas mais suaves */
+    background-color: #2D2A37ff; /* Cor mais próxima do fundo do design */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    padding: 16px;
+  }
+  
+  .display {
+    background-color: transparent; /* Transparente para harmonizar com o fundo */
+    color: #d3d3d3; /* Cinza claro */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;  
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .display .operation {
+    font-size: 14px;
+    color: #8e8e8e; /* Cor cinza escuro */
+  }
+  
+  .display .result {
+    font-size: 36px;
+    color: #ffffff; /* Branco puro */
+  }
+
+  .display .= {
+    display: flex;
+    font-size: 36px;
+    color: #ffffff; /* Branco puro */
+    
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    box-shadow: #7B2CBF;
+    background-color: #2D2A37ff;
+    bottom: #312E3Aff;
+  }
+  
+  .btn {
+    height: 70px;
+    width: 70px;
+    border-radius: 200px; /* Botões arredondados */
+    background-color: #312E3Aff; /* Cinza escuro */
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .btn:hover {
+    background-color: #444444; /* Realce ao passar o mouse */
+  }
+  
+  .btn:active {
+    transform: scale(0.95); /* Leve redução ao pressionar */
+  }
+  
+  .btn.operator {
+    background-color: #4C2F7Bff; /* Roxo do design */
+    color: #ffffff;
+  }
+
+  .btn.operator1 {
+    background-color: #7240C8ff; /* Roxo do design */
+    color: #ffffff;
+  }
+  
+  .btn.operator:hover {
+    background-color: #7240C8ff; /* Roxo escuro */
+  }
+  
+  .btn.function {
+    background-color: #312E3Aff; /* Cinza para botões de função */
+    color: #d3d3d3;
+  }
+
+  .btn.function1 {
+    background-color: #312E3Aff; /* Cinza para botões de função */
+    color: #9D4EDD;
+    
+  }
+  
+  .btn.function:hover {
+    background-color:#312E3Aff; /* Realce para funções */
+  }
+  
+  .btn.number {
+    background-color: #312E3Aff; /* Botões numéricos */
+  }
+  
+  .btn.number:hover {
+    background-color: #312E3Aff;
+  }
+  

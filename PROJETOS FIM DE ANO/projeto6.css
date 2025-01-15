@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.weather-card {
+    background: linear-gradient(149deg, rgba(102, 96, 255, 1) 0%, rgba(166, 151, 255, 1) 100%);
+    border-radius: 24px;
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.weather-card::after {
+    content: '';
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    background: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/clima-5vRoSCyGfPIC7EeuZuhWPAXeZrBrSi.png') bottom center no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.left-card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.cloud-icon {
+    width: 64px;
+    height: 64px;
+    background: white;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.temperature {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.temp-value {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.temp-unit {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.temp-range {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-item {
+    text-align: center;
+    color: white;
+}
+
+.info-label {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 4px;
+}
+
+.info-value {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 420px;
+}
+
+.air-quality {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px;
+    color: white;
+}
+
+.quality-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.quality-status {
+    color: #87EBCD;
+    margin-bottom: 4px;
+}
+
+.quality-value {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+}
+
+.metric-item {
+    text-align: center;
+}
+
+.metric-item .value {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.metric-item .label {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.forecast {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.forecast-day {
+    text-align: center;
+}
+
+.day-name {
+    font-size: 14px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.forecast-icon {
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin: 0 auto 16px;
+}
+
+.day-temp {
+    font-size: 16px;
+}
+
+ion-icon {
+    font-size: 20px;
+}

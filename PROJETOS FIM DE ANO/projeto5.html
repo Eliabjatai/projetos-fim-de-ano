@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="projeto5.css">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="card nps">
+      <h3>NPS geral</h3>
+      <div class="nps-score">
+        <span class="emoji">😊</span>
+        <p>Excelente!</p>
+        <p class="score">NPS Score: 75</p>
+      </div>
+    </div>
+
+    <div class="card vendas">
+      <h3>Vendas fechadas</h3>
+      <div class="chart">
+        <div class="progress" data-percentage="70%">70%</div>
+        <p><span class="esperado">Esperado: 100</span> | <span class="atingido">Alcançado: 70</span></p>
+      </div>
+    </div>
+
+    <div class="card meta">
+      <h3>Meta mensal</h3>
+      <div class="chart">
+        <div class="progress" data-percentage="90%">90%</div>
+        <p><span class="esperado">Esperado: R$ 70K</span> | <span class="atingido">Alcançado: 90%</span></p>
+      </div>
+    </div>
+
+    <div class="card vendas-semana">
+      <h3>Vendas por dia da semana</h3>
+      <div class="week-data">
+        <p><span class="high">▲ Dia com mais vendas: quarta-feira</span></p>
+        <p><span class="low">▼ Dia com menos vendas: domingo</span></p>
+      </div>
+      <div class="graph">
+        <div class="bar" data-day="dom"></div>
+        <div class="bar" data-day="seg"></div>
+        <div class="bar" data-day="ter"></div>
+        <div class="bar highlight" data-day="qua"></div>
+        <div class="bar" data-day="qui"></div>
+        <div class="bar" data-day="sex"></div>
+        <div class="bar" data-day="sáb"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

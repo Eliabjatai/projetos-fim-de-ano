@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #FFFFFF 50%, #6E44FF 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 360px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    color: #222;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 0.875rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  form label {
+    display: block;
+    font-size: 0.875rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .password-container label {
+    margin-bottom: 0;
+  }
+  
+  .forgot-password {
+    font-size: 0.75rem;
+    color: #6E44FF;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #6E44FF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #5937cc;
+  }
+  
+  .register {
+    font-size: 0.875rem;
+    color: #666;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .register a {
+    color: #6E44FF;
+    text-decoration: none;
+  }
+  
+  .register a:hover {
+    text-decoration: underline;
+  }
+  

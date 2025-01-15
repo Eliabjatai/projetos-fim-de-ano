@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boarding-pass {
+    background: #6A1B9A;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.flight-info .code {
+    font-size: 24px;
+}
+
+.flight-info .time {
+    font-size: 14px;
+}
+
+.flight-info .arrow {
+    font-size: 18px;
+    color: #6A1B9A;
+}
+
+.passenger-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.passenger-info strong {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.boarding-details {
+    background: #FFFFFF;
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.boarding-details .attention {
+    color: red;
+    font-weight: bold;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    line-height: 1.4;
+}

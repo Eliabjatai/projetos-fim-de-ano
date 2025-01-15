@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="projeto6.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <div class="left-card">
+                <div class="cloud-icon"></div>
+                <div class="location">
+                    <ion-icon name="location-outline"></ion-icon>
+                    Rio do Sul, SC
+                </div>
+                <div class="temperature">
+                    <span class="temp-value">18</span>
+                    <span class="temp-unit">°C</span>
+                </div>
+                <div class="temp-range">
+                    22° 16°
+                </div>
+                <div class="weather-info">
+                    <div class="info-item">
+                        <div class="info-label">Vento</div>
+                        <div class="info-value">17 km/h</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Umidade</div>
+                        <div class="info-value">31 %</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Chuva</div>
+                        <div class="info-value">10 %</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="air-quality">
+                    <div class="quality-header">
+                        <ion-icon name="leaf-outline"></ion-icon>
+                        Qualidade do ar
+                    </div>
+                    <div class="quality-status">Boa</div>
+                    <div class="quality-value">21</div>
+                    <div class="metrics">
+                        <div class="metric-item">
+                            <span class="value">12.9</span>
+                            <span class="label">PM2.5</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="value">12.9</span>
+                            <span class="label">PM10</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="value">2.1</span>
+                            <span class="label">SO₂</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="value">1.4</span>
+                            <span class="label">NO₂</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="value">21.2</span>
+                            <span class="label">O₃</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="value">0.7</span>
+                            <span class="label">CO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="forecast">
+                    <div class="forecast-day">
+                        <span class="day-name">Amanhã</span>
+                        <div class="forecast-icon cloudy"></div>
+                        <span class="day-temp">21° 16°</span>
+                    </div>
+                    <div class="forecast-day">
+                        <span class="day-name">Sexta-Feira</span>
+                        <div class="forecast-icon sunny"></div>
+                        <span class="day-temp">28° 20°</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
